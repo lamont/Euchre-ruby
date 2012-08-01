@@ -1,5 +1,5 @@
-Implementing euchre bots in ruby, structure should be original but I'll crib algorithms from the cpp euchre project on github.
+Implementing a euchre simulator in ruby
 
-might as well do it as OO as possible,
+The structure should be original but plan to crib some algorithms from the cpp euchre project on github.
 
 a Game is made of 4 Players, each of whom have a Hand of Cards from the Deck.  
