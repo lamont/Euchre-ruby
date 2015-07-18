@@ -1,4 +1,4 @@
-require 'Deck'
+require_relative'Deck'
 
 theDeck = Deck.new
 p theDeck.examine

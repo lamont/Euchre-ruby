@@ -1,4 +1,4 @@
-require 'Card'
+require_relative 'Card'
 
 class Deck < Card
             
@@ -14,13 +14,7 @@ class Deck < Card
   end
   
   def shuffle!
-    # attach a random number to each card
-    shuffleDeck = Hash.new
-    @cards.each do |card|
-      shuffleDeck[card] = rand
-    end    
-    # sort by that random number and replace @cards with the sorted array, stripping out the random number
-    @cards = shuffleDeck.sort { |a,b| a[1] <=> b[1] }.collect {|e| e[0]}
+    @cards.shuffle!
   end
   
   def examine

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Deck.rb</string>
+	<string>Card.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -12,12 +12,22 @@
 				<dict>
 					<key>filename</key>
 					<string>README.md</string>
+					<key>lastUsed</key>
+					<date>2012-08-06T23:14:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Deck.rb</string>
 					<key>lastUsed</key>
-					<date>2012-07-31T04:54:22Z</date>
+					<date>2012-08-01T05:48:26Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>Card.rb</string>
+					<key>lastUsed</key>
+					<date>2012-08-08T19:45:32Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -29,50 +39,50 @@
 			<key>filename</key>
 			<string>test.rb</string>
 			<key>lastUsed</key>
-			<date>2012-07-31T04:54:22Z</date>
+			<date>2012-08-08T19:24:44Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Card.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>24</integer>
+				<key>line</key>
+				<integer>24</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>Deck.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>5</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>test.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>Deck.rb</string>
-		<string>test.rb</string>
+		<string>Card.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{454, 126}, {1208, 738}}</string>
+	<string>{{401, 227}, {1208, 738}}</string>
 </dict>
 </plist>

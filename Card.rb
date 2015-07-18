@@ -21,6 +21,10 @@ class Card
     @card
   end
 
+  def <=>(othercard, trumpSuit)
+    # fix this, make it 
+    @card
+  end
 
 
 end
