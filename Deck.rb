@@ -5,8 +5,8 @@ class Deck < Card
   def initialize()
     @cards = Array.new
     # hearts, diamonds, clubs, spades
-    Suits.each do |suit|
-      Ranks.each do |rank|
+    Suits.keys.each do |suit|
+      Ranks.keys.each do |rank|
         # a card is the first letter of the suit plus the rank
         @cards <<  Card.new(rank,suit)
       end        
