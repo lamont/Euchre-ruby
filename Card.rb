@@ -21,9 +21,16 @@ class Card
     @card
   end
 
-  def <=>(othercard, trumpSuit)
-    # fix this, make it 
+  def beats?(othercard, trumpSuit)
     @card
+    end
+
+   def suit
+     Suits.select { |s| s[:name].downcase.start_with?(@card[1]) }.first[:name]
+   end
+
+  def is_trump?(trumpSuit)
+    self.suit.downcase == trumpSuit.downcase
   end
 
 
