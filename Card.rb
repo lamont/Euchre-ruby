@@ -27,13 +27,14 @@ class Card
       when self.is_trump?(trumpSuit) && !othercard.is_trump?(trumpSuit)
         return true
       # if self isn't trump and other card is, other wins
-      when !(self.is_trump(trumpSuit)) &&  othercard.is_trump?(trumpSuit)
+      when !(self.is_trump?(trumpSuit)) &&  othercard.is_trump?(trumpSuit)
         return false
       # if neither are trump, order wins
-      when  !(self.is_trump(trumpSuit)) && !(othercard.is_trump?(trumpSuit))
+      when  !(self.is_trump?(trumpSuit)) && !(othercard.is_trump?(trumpSuit))
         return self.order(trumpSuit) > othercard.order(trumpSuit)
-      # if both are trump, special case order
-        #when
+      # if both are trump, special case order wins
+      when self.is_trump?(trumpSuit) && othercard.is_trump?(trumpSuit)
+        return self.order(trumpSuit) > othercard.order(trumpSuit)
     end
       return false
     end
